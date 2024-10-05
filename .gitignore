@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Go modules
+go.mod
+go.sum
+
+# Dependency directories
+vendor/
+
+# Build directories
+bin/
+out/
+dist/
+
+# IDE & OS-specific files
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Coverage and test result files
+coverage.out
+*.coverprofile
+
+# Local environment variables
+.env
